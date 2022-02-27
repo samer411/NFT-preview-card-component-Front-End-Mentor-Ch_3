@@ -1,0 +1,81 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card {
+  font-family: "Open Sans", sans-serif;
+  width: 250px;
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.card img:first-of-type {
+  width: 100%;
+}
+
+.card .text {
+  text-align: left;
+}
+.card .text h3 {
+  color: hsl(0, 0%, 100%);
+}
+.card .text p {
+  color: hsl(215, 32%, 27%);
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+.card .text .extra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0 20px;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+.card .text .extra .first,
+.card .text .extra .second {
+  display: flex;
+  align-items: center;
+}
+.card .text .extra .first img {
+  width: 8px;
+}
+.card .text .extra .first span {
+  margin-left: 5px;
+  font-size: 0.8em;
+  color: hsl(178, 100%, 50%);
+}
+.card .text .extra .second img {
+  width: 15px;
+}
+.card .text .extra .second span {
+  margin-left: 5px;
+  font-size: 0.8em;
+  color: hsl(215, 51%, 70%);
+}
+
+.card .text .footer {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.card .text .footer img {
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  width: 20px;
+}
+.card .text .footer .text {
+  margin-left: 10px;
+  font-size: 0.7em;
+}
+.card .text .footer .text span {
+  color: hsl(0, 0%, 100%);
+}
